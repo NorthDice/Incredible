@@ -1,0 +1,55 @@
+.section-update {
+    background-color: white;
+    padding: 2rem;
+
+  }
+  
+  .update-text {
+    text-align: left;
+    margin: 2rem 3rem;
+  }
+    
+  .update-action {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border-radius: 8px;
+    flex: 1;
+    max-width: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .author img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.75rem;
+  }
+  

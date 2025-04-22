@@ -1,0 +1,10 @@
+.pink-button {
+    background-color: #000000; 
+    color: #FFC0CB; 
+    cursor: pointer;
+    padding: 5px 70px 5px 30px; 
+    border-radius: 5px; 
+    text-transform: uppercase; 
+    margin-bottom: 1.5rem;
+    border-bottom: solid 3px black;
+}

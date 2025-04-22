@@ -19,6 +19,10 @@
     margin-top: 30px;
 }
 
+.h3-title {
+    font-size: 32px;
+}
+
 .caps {
     letter-spacing: 2px;
     text-transform: uppercase;
