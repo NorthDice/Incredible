@@ -1,1 +1,5 @@
-@import './header.css'
+@import './header.css';
+@import './nav.css';
+@import './button.css';
+@import './section-hero.css';
+@import './title.css';

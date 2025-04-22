@@ -1,0 +1,29 @@
+.section-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F8F3;
+    padding: 80px 120px;
+    height: 44rem;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .hero-actions img {
+    max-width: 50%;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  

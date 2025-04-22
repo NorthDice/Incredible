@@ -1,0 +1,20 @@
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+}
+.nav .list {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.nav .item {
+    margin-right: 40px;
+}
+
+.nav .list .item .link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
