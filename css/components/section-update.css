@@ -40,11 +40,21 @@
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
   }
-  
+  .comment {
+    line-height: 0.5rem;
+    font-family: "DM Sans", sans-serif;
+  }
   .author {
     display: flex;
     align-items: center;
     margin-top: 1rem;
+  }
+  .author small {
+    font-weight: 300;
+  }
+  .author p {
+    font-weight: 400;
+    font-size: small;
   }
   
   .author img {

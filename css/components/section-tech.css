@@ -1,12 +1,11 @@
 
 .section-tech {
     height: auto;
-    padding-bottom: 4rem;
+    padding-top: 4rem;
     background-color: white;
-    border-bottom: solid 3px black; 
+    border-bottom: solid 3px #FFFFFF; 
 }
   .tech-titles {
-    margin: 5rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,10 +14,9 @@
 }
   .tech-columns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
-    padding: 2rem;
 }
   .tech-block {
     display: flex;
@@ -35,7 +33,7 @@
   
   .tech-columns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
