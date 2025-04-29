@@ -31,3 +31,9 @@
         align-self: center;
     }
 }
+@media (max-width: 480px) {
+    .section-footer .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}

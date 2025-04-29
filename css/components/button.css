@@ -9,8 +9,16 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
    .button{
     padding: 0px 25px;
    }
 }
+
+ @media (max-width: 768px) {
+    .button{
+     padding: 0px 5px;
+    }
+ }
+ 
+ 

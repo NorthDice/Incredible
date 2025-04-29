@@ -19,9 +19,14 @@
     color: #142A31;
 }
 
-@media (max-width:768px) {
-    
-}
 @media (max-width:480px) {
-    
+    .nav .list {
+        padding-left: 20px;
+    }    
+    .nav .item {
+        margin-right: 20px;
+    }
+    .nav {
+        padding-right: 0;
+    }
 }
