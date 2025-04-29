@@ -16,3 +16,18 @@
 .privacy-section{
     font-weight: 300;
 }
+@media (max-width: 1024px) {
+    .section-footer .inner {
+        margin: 0 5rem 0 2rem;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    
+    .copyright-section {
+        max-width: 100%;
+    }
+    
+    .privacy-section {
+        align-self: center;
+    }
+}

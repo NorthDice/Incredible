@@ -6,3 +6,18 @@
     justify-content: space-around;
     padding: 0 7rem;
 }
+
+@media (max-width: 1024px) {
+    .section-companies {
+        padding: 0 4rem;
+        height: auto;
+        min-height: 40rem;
+    }
+    .companies-text {
+        margin-right: 2rem;
+        width: 45%; 
+    }
+    .companies-content {
+        width: 45%; 
+    }
+}

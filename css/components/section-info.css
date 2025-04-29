@@ -64,3 +64,41 @@
     margin-bottom: 1rem;
     font-weight: 300;
 }
+
+@media (max-width: 1024px) {
+    .section-info {
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    .wrapper {
+        margin: 0 4rem; 
+        flex-direction: column; 
+        gap: 3rem; 
+    }
+    
+    .inner {
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .info-logo {
+        margin-bottom: 0;
+        margin-right: 0;
+        flex-shrink: 0; 
+    }
+    
+    .subinner {
+        gap: 10rem; 
+        justify-content: space-around; 
+        padding-top: 2rem; 
+        border-top: 1px solid #eee; 
+    }
+    
+    .info-action {
+        flex-direction: row; 
+        gap: 1.5rem;
+    }
+}
