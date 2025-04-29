@@ -102,3 +102,62 @@
         gap: 1.5rem;
     }
 }
+@media (max-width: 768px) {
+    .section-info {
+        padding: 1.5rem 0;
+    }
+    
+    .wrapper {
+        margin: 0 2rem;
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .inner {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    
+    .info-logo {
+        margin-bottom: 1.5rem;
+    }
+    
+    .subinner {
+        display: flex;
+        align-items: center; 
+        text-align: center; 
+        gap: 2rem;
+        padding-top: 1.5rem;
+        width: 100%;
+        max-width: 500px; 
+    }
+    
+    .info-action {
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .careers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .new-api {
+        justify-content: center;
+    }
+    
+    .green {
+        margin-left: 0.5rem;
+    }
+}

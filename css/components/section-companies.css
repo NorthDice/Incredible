@@ -21,3 +21,21 @@
         width: 45%; 
     }
 }
+@media (max-width: 768px) {
+    .section-companies {
+        padding: 0 5rem; 
+        min-height: 45rem; 
+        gap: 4rem; 
+        justify-content: space-evenly; 
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .companies-text {
+        width: 40%; 
+    }
+    .companies-content {
+        width: 400px;
+        min-width: 400px;
+    }
+}

@@ -6,3 +6,41 @@
     justify-content: space-between;
     padding: 0 7rem;
 }
+@media (max-width: 768px) {
+    .section-view {
+        flex-direction: column;
+        height: auto;
+        padding: 3rem 2rem;
+        justify-content: center;
+        align-items: center; 
+        text-align: center; 
+    }
+    
+    .companies-text {
+        width: 100%;
+        max-width: 600px; 
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .companies-text .h2.paragraph {
+        font-size: 2rem;
+        line-height: 1.4;
+        text-align: center; 
+    }
+    
+    .companies-text .h4.paragraph {
+        font-size: 1rem;
+        line-height: 1.7;
+        max-width: 100%;
+        text-align: center; 
+    }
+    
+    .view-content {
+        width: 100%;
+        max-width: 500px; 
+        margin: 0 auto; 
+    }
+}

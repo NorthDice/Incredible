@@ -8,3 +8,31 @@
     
 }
 
+@media (max-width: 768px) {
+    .section-price {
+        flex-direction: column;
+        height: auto;
+        padding: 3rem 2rem;
+        text-align: center; 
+    }
+    
+    .price-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-bottom: 2rem;
+    }
+    
+    .price-text .h2.paragraph,
+    .price-text .h4.paragraph {
+        text-align: center; 
+        width: 100%;
+    }
+    
+    .price-content {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

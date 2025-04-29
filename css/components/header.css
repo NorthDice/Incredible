@@ -5,3 +5,10 @@
     padding: 20px 60px;
     background-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 130px; 
+        min-width: 130px; 
+    }
+}

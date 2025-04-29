@@ -8,3 +8,9 @@
     background: #FDB0AB;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+   .button{
+    padding: 0px 25px;
+   }
+}
