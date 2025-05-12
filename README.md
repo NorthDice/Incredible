@@ -22,6 +22,7 @@ This website was developed based on a high-fidelity design prototype created in 
 - HTML5  
 - CSS3  
 - Figma (design reference)
+- JavaScript
 
 ## 📷 Screenshots  
 
